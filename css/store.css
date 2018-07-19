@@ -1,0 +1,211 @@
+/* .cart {
+    width: 70%;
+    height: auto;
+    border: 1px solid black;
+    background-color: darkcyan;
+    box-sizing: border-box;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+} */
+
+/* cart div copy css */
+
+/* ::-webkit-scrollbar { 
+} */
+
+/* *{
+}
+html,body{
+    width: 100%;
+    height: 100%;
+} */
+body,html{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.wrapper1 {
+    width: 100%;
+    height: 100%;
+    background-color: #F0F0F0;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+.one {
+    width: 100%;
+    height: 55%;
+    background-image: url(../images/bedroom.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: darkcyan;
+}
+
+.top-cart-div {
+    display: flex;
+}
+
+.top-cart-list {
+    position: absolute;
+    top: 37%;
+    /* border: 2px solid black; */
+    /* background-color: darkcyan; */
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    width: 100%;
+}
+::-webkit-scrollbar{
+    width: 0px;
+    background-color: transparent;
+    display: none;
+}
+
+.top-cart {
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 10px;
+}
+
+.top-cart-img {
+    background-image: url(../images/stephen.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 10.5vh;
+    height: 10.5vh;
+    
+    /* width: 60px; */
+    /* height: 60px; */
+    margin: 0 auto;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    /* margin: 10px; */
+    /* margin: 0px 20px;    */
+    margin-bottom: 10px;
+}
+
+.cart-text-div {
+    /* border: 1px solid black; */
+    width: 100px;
+    /* padding: 10px; */
+    margin: 10px;
+    /* line-height: 2em; */
+}
+
+.text-head {
+    /* border: 1px solid black; */
+    margin: 0px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #323f50;
+    /* line-height: 0em; */
+}
+
+.small-text {
+    /* border: 1px solid black; */
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    /* background-color:salmon; */
+    color: gray;
+}
+
+.view-btn {
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    border: none;
+    background-color: #323f50;
+    color: #fff;
+    border-radius: 10px;
+    padding: 0px 10px 0px 10px;
+}
+
+/* cart div copy css */
+
+
+
+
+
+
+
+
+/* bottom-comtent CSS */
+
+.bottom-content {
+    /* height: 10vh; */
+    width: 100%;
+    /* border: 1px solid black; */
+    /* background-color: #fff; */
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 0px;
+    background-color: #fff;
+}
+
+.bot-list-ul {
+    /* border: 1px solid black; */
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    width: 100vw;
+    height: 100%;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    /* background-color:yellow;     */
+    align-self: center;
+}
+
+.bot-list-li {
+    /* flex: 1; */
+    align-self: center;
+    /* border: 1px solid black; */
+    /* background-color:greenyellow; */
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    color: #aeaeae;
+    display: flex;
+    flex-direction: column;
+}
+
+.bot-anker{
+    text-decoration: none;
+     display:flex;
+    flex-direction: column;
+    color: #aeaeae;
+    flex: 1;
+    /* text-align: center; */
+}
+/* 
+.bot-anker:hover{
+
+    color: darkblue;
+} */
+.bot-list-li:hover{
+    color: black;
+    
+}
+
+.icon-text {
+    font-size: 12px;
+    margin-top: 5px;
+    text-align: center;
+}
+.home-active{
+    background-color:transparent;
+    color: black;
+}
